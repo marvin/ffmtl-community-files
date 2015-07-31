@@ -1,0 +1,42 @@
+{
+  "name": "Freifunk Mittelsachsen Tupya",
+  "url": "http://ff.tupya.com",
+  "location": {
+    "city": "Waldheim",
+    "country": "DE",
+    "lat": 51.07326,
+    "lon": 13.024699
+  },
+  "contact": {
+    "email": "dnoelte@gmail.com",
+    "irc": "irc://tupya@hackint"
+  },
+  "metacommunity": "Tupya",
+  "state": {
+    "description": "Freifunk Mittelsachsen powered by Tupya",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-07-29T17:36:57.642Z"
+  },
+  "techDetails": {
+    "dns": [
+      {
+        "domainname": "tup"
+      }
+    ],
+    "legals": [
+      "vpnnational",
+      "vpninternational",
+      "zappscript",
+      "p2pblock"
+    ],
+    "routing": [],
+    "updatemode": []
+  },
+  "api": "0.4.8"
+}
