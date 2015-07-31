@@ -9,11 +9,13 @@
   },
   "contact": {
     "email": "dnoelte@gmail.com",
-    "irc": "irc://tupya@hackint"
+    "irc": "irc://freifunkmtl@hackint",
+	"facebook": "https://www.facebook.com/groups/FreifunkMittelsachsen/",
+	"twitter": "@freifunkmtl",
   },
   "metacommunity": "Tupya",
   "state": {
-    "description": "Freifunk Mittelsachsen powered by Tupya",
+    "description": "Freifunk Mittelsachsen Waldheim, Doebeln, Mittweida, Hartha usw.",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -21,7 +23,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-29T17:36:57.642Z"
+    "lastchange": "2015-08-31T10:36:57.642Z"
   },
   "techDetails": {
     "dns": [
@@ -35,8 +37,25 @@
       "zappscript",
       "p2pblock"
     ],
-    "routing": [],
-    "updatemode": []
+    "routing": [
+        "batman-adv"
+    ],
+    "updatemode": [
+        "manual",
+        "autoupdate"
+    ],
+    "networks": {
+        "ipv4": [
+            {
+                "network": "10.23.0.0/16"
+            }
+        ]
+    },
+    "firmware": {
+        "name": "gluon",
+        "url": "download.freifunk-dresden.de/firmware/",
+        "docs": "wiki.freifunk-dresden.de/index.php/Hauptseite"
+    }
   },
   "api": "0.4.8"
 }
